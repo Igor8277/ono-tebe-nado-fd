@@ -39,6 +39,7 @@ body {
   max-width: 240px;
   display: block;
   justify-self: end;
+  padding-right: 50px;
 }
 
 .header__link-phone,
