@@ -19,6 +19,12 @@ body {
 
 .header__link {
   font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+  list-style: circle;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
   color: #000;
 }
 
@@ -42,6 +48,10 @@ body {
   padding-right: 50px;
 }
 
+.header__link-phone {
+  text-decoration: none;
+}
+
 .header__link-phone,
 .header__link-mail,
 .header__street {
@@ -50,7 +60,7 @@ body {
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
-
+  line-height: 24.3px;
   color: #000;
 }
 
@@ -111,26 +121,24 @@ body {
   text-align: right;
 }
 
-
 .cover__description {
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
   z-index: 2;
-  font-family: Raleway, sans-serif;
-  color: white;
   margin-bottom: 50px;
 }
 
-
-
 .cover__subtitle {
+  font-family: 'Raleway', sans-serif;
+  color: white;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 20px;
+  letter-spacing: 0%;
 }
 
 .cover__button {
