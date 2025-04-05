@@ -10,17 +10,19 @@ body {
   gap: 30px;
   height: 293px;
 }
+
 .header__links-list {
   display: flex;
   justify-content: space-evenly;
-  list-style: none; 
+  list-style: none;
 }
 
 .header__links-list-item {
-  list-style: circle; 
+  list-style: circle;
 }
+
 .header__links-list-item_active {
-  list-style: none; 
+  list-style: none;
 }
 
 .header__link {
@@ -31,11 +33,11 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   color: #000;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .header__links-list-item_active .header__link {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .header__logo {
