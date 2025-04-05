@@ -10,15 +10,17 @@ body {
   gap: 30px;
   height: 293px;
 }
-
-.header__links-list-item.header__links-list-item_activ {
-  list-style: none;
-}
-
 .header__links-list {
   display: flex;
   justify-content: space-evenly;
-  list-style: circle;
+  list-style: none; 
+}
+
+.header__links-list-item {
+  list-style: circle; 
+}
+.header__links-list-item_active {
+  list-style: none; 
 }
 
 .header__link {
@@ -29,10 +31,11 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   color: #000;
+  text-decoration: underline; 
 }
 
-.header__link_active {
-  text-decoration: none;
+.header__links-list-item_active .header__link {
+  text-decoration: none; 
 }
 
 .header__logo {
