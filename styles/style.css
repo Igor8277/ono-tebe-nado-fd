@@ -78,14 +78,18 @@ body {
 
 }
 
+.cover__title span:nth-child() {
+  padding-bottom: 20px;
+}
+
 .cover__title span {
   z-index: 2;
   color: white;
   display: block;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 100px;
-   letter-spacing: 30px;
+  letter-spacing: 30px;
   text-transform: uppercase;
 }
 
@@ -101,7 +105,7 @@ body {
   text-align: right;
 }
 
- 
+
 .cover__description {
   display: flex;
   justify-content: space-around;
@@ -200,7 +204,7 @@ body {
 .card__title {
   position: relative;
   z-index: 2;
-  font-family:  'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 22px;
   text-transform: uppercase;
