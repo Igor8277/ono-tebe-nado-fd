@@ -11,16 +11,19 @@ body {
   height: 293px;
 }
 
+.header__links-list-item.header__links-list-item_activ {
+  list-style: none;
+}
+
 .header__links-list {
   display: flex;
   justify-content: space-evenly;
-  list-style: none;
+  list-style: circle;
 }
 
 .header__link {
   font-family: 'Raleway', sans-serif;
   text-transform: lowercase;
-  list-style: circle;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -49,7 +52,7 @@ body {
 }
 
 .header__link-phone {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .header__link-phone,
@@ -60,14 +63,12 @@ body {
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
-  line-height: 24.3px;
   color: #000;
 }
 
 
 .cover {
   position: relative;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
