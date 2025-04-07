@@ -80,8 +80,7 @@ body {
   justify-content: center;
   background-image: url(/images/lotus-flower.png);
   background-size: cover;
-  width: 1100px;
-  height: 757px;
+
 }
 
 .overlay {
@@ -92,12 +91,13 @@ body {
 }
 
 .cover__title {
-  display: block;
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
   position: relative;
   z-index: 2;
   width: 1000px;
-  margin: 165px 50px 106px 50px;
-  font-family: 'Raleway', sans-serif;
+  padding: 165px 50px 106px 50px;
   color: white;
 
 }
@@ -105,7 +105,7 @@ body {
 .cover__title span {
   z-index: 2;
   color: white;
-  display: block;
+  /* display: block; */
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 100px;
@@ -134,7 +134,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* gap: 107px; */
   margin-bottom: 50px;
 }
 
