@@ -76,18 +76,12 @@
   position: relative;
   z-index: 2;
   color: white;
-  /* gap: 20px; */
   margin-bottom: 106px;
-  z-index: 2;
   font-size: 100px;
   letter-spacing: 30px;
   line-height: 115%;
   text-transform: uppercase;
 }
-
-.cover__title-word-first {
-}
-
 .cover__title-word-second {
   display: block;
   text-align: center;
